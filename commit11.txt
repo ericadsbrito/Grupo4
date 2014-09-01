@@ -1,0 +1,27 @@
+//Commit 11 por Heberty carlos, Eng04na.  Fatorial.
+
+#include <iostream>
+
+using namespace std;
+
+long fatorial (long a)
+
+{
+	
+	if (a > 1)
+	 return (a * fatorial (a-1));
+	else
+	 return 1;
+	 
+}
+
+int main ()
+
+{
+	long number;
+	cout << "Digite : ";
+	cin >> number;
+	
+	cout << number <<"! " << fatorial (number);
+	return 0;
+}
