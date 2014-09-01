@@ -1,0 +1,37 @@
+//Commit 14 por Heberty Carlos, eng4na. Saiba se Pode votar.
+
+#include <iostream>
+#include <stdlib.h>
+
+
+using namespace std;
+
+int main ()
+
+{
+	float idade;
+	
+	
+	
+	cout << "---Saiba se voce pode votar---" << endl << endl ;
+	cout << "Digite aqui a sua idade: " ;
+	cin >> idade;
+	
+	
+
+		if (idade < 16 )
+	cout << endl << "Nao pode votar." << endl << endl ;	
+	    if (idade >= 18 && idade < 65)
+	cout << endl << "Voto Obrigatorio." << endl << endl ;
+	    if (idade >= 16 && idade < 18 || idade >= 65)
+	cout << endl << "Voto Facultativo." << endl << endl ;
+	 
+
+	    
+	
+	 system ("PAUSE") ;
+	  
+    
+	
+	
+}
