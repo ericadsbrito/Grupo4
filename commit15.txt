@@ -1,0 +1,31 @@
+//Commit 15 por Heberty Carlos, eng4na. Conversor de medida.
+
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+int main()
+
+{
+	float km , m , dm , cm , mm ;
+	
+	cout << "---CONVERSOR DE COMPRIMENTO---" << endl << endl ;
+	cout << "Digite a medida em KM: " ;
+	cin >> km ;
+	
+	
+	m = (km*1000) ;
+	dm = (km*10000) ;
+	cm = (km*100000) ;
+	mm = (km*1000000) ;
+	 
+	cout << endl << "Em metros fica: " << m << "m" ;
+	cout << endl << "Em decimetro fica: " << dm << "dm" ;
+	cout << endl << "Em centimetros fica: " << cm << "cm" ;
+	cout << endl << "Em milimetros fica: " << mm << "mm" << endl << endl ;
+	
+	system ("PAUSE") ;
+	
+}
+
