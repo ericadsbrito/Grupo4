@@ -51,7 +51,17 @@ int main(void)
     cin >> num;
 
 
+    if (num == 1) {
+        cout << "Deseja realizar quantos cadastros?" << endl;
+        cin << qntcad;
+        for (a=0;a<qntcad;a++){
+            memcpy(logando[a].user, cadastro_login(), 50);
+            memcpy(logando[a].pass, cadastro_senha(), 50);
+        }
+    }
+    else if (num == 3) exit(0);
 
+    system("cls");
 
 
 
