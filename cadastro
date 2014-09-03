@@ -5,10 +5,10 @@
 struct cadastro {
 
 
-    char user[20];
-    char pass[20];
-    char login[20];
-    char senha[20];
+    char user[30];
+    char pass[8];
+    char login[30];
+    char senha[8];
 
 
 } cadastro;
