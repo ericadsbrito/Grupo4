@@ -2,14 +2,20 @@
 #include <cmath>
 using namespace std;
 
-/* float Zeros(float x1, float x2)
+float ZeroX1(float a, float b, float c, float D)
 {
-        x1 = ((-b^2)+sqrtD)/2*a;
-        x2 = ((-b^2)-sqrtD)/2*a;
+        float x1;
+        x1 = (pow(-b,2)+sqrtD)/2*a;
 
-        return (x1, x2);
-}*/
+        return (x1);
+}
+float ZeroX2(float a, float b, float c, float D)
+{
+        float x2;
+        x2 = (pow(-b,2)-sqrtD)/2*a;
 
+        return (x2);
+ }
 float Delta(float a, float b, float c)
 {
     float D;
@@ -23,7 +29,7 @@ float Delta(float a, float b, float c)
 int main()
 {
    cout << "Estamos em main()\n";
-   float a, b, c, D;
+   float a, b, c, D, x1, x2;
    cout << "\n digite o valor a = ";
    cin >> a;
    cout << "\n digito o valor b = ";
@@ -40,6 +46,10 @@ int main()
         {
         cout << "\n de volta ao main";
         cout << "Delta = " << D;
+        x1 = zerox1(a,b,c,D);
+        cout << "Valor de x1 = " << x1;
+        x2 = zerox2(a,b,c D);
+        cout << "Valor de x2 = " << x2;
          }
 
 
