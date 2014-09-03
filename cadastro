@@ -18,12 +18,24 @@ char *cadastro_login()
     struct cadastro usuario[1];
 
     system("cls");
-    cout << "Cadastro:" << endl << endl;
-    cout << "Novo Login:" << endl;
+    cout << "Cadastro" << endl << endl;
+    cout << "Novo Login" << endl;
 
     scanf(" %s",usuario[0].user);
     return (usuario[0].user);
 }
+
+char *cadastro_senha()
+{
+    struct cadastro password[1];
+
+    cout << "Insira a senha:" << endl;
+    cin >> senha[0];
+    system("cls");
+
+}
+
+
 
 
     return 0;
