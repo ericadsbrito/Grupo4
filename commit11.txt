@@ -19,9 +19,9 @@ int main ()
 
 {
 	long number;
-	cout << "Digite : ";
+	cout << "Digite o fatorial: ";
 	cin >> number;
 	
-	cout << number <<"! " << fatorial (number);
+	cout << number <<"! = " << fatorial (number);
 	return 0;
 }
