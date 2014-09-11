@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float l1,l2,t;
+
+cout<<"digite o lado 1 ";
+cin>>l1;
+
+cout<<"digite o lado 2 ";
+cin>>l2;
+
+t=l1*l2;
+
+if(l1==l2){
+           cout<<"quadrado de : "<<t;
+           }
+if(l1!=l2){
+           cout<<"retangulo de : "<<t;
+           
+           }
+cin.get();
+cin.get();
+
+}
