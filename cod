@@ -7,7 +7,9 @@ printf("digite um numero a");
 scanf("%f",&a);
 printf("digite um numero b");
 scanf("%f",&b);
-m=(a+B)/2);
+m=(a+B)/2);        
 printf(" a media é= %f",m);
-getch():
+getch():      
 }
+
+
