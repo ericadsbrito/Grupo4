@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float preço,watt,total;
+
+cout<<"digite o total de Watts ";
+cin>>watt;
+
+cout<<"digite o preço ";
+cin>>preço;
+
+total=preço*watt;
+
+cout<<"total "<<total;    
+    cin.get();
+    cin.get();
+}
