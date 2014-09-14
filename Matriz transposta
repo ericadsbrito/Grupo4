@@ -1,0 +1,36 @@
+#include <iostream>
+#include <stdlib.h>
+#include <typeinfo>
+
+using namespace std;
+
+int main() {
+	int i,j;
+	int A[3][3] = {{1,4,7},{2,5,8},{3,6,9}};
+	
+	cout<<"Sua matriz A: \n";
+	
+	for(i=0;i<=2;i++){
+		for(j=0;j<=2;j++){
+			cout<<A[i][j]<<" ";
+			}
+	cout<<"\n";
+	}
+	
+	cout<<"\n\nA matriz transposta: \n";
+	
+	for(i=0;i<=2;i++){
+		for(j=0;j<=2;j++){
+			cout<<A[j][i]<<" ";
+			}
+	cout<<"\n";
+	}
+	
+	
+	
+	
+	return 0;
+	
+	
+	
+}
