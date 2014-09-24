@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i, n;
+    int * pData;
+    
+    cout << "Amount of numbers to be entered: ";
+    cin >> i;
+    
+    pData = (int*) calloc (i,sizeof(int));
+}
