@@ -78,7 +78,8 @@ int main(void)
 
     cout << "Ola, "<< login[0] << endl;
 
-
+    cin.get();
+    
 
 
     return 0;
