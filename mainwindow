@@ -19,3 +19,8 @@ void MainWindow2::on_btvoltar_clicked()
 {
     MainWindow MainWindow
 }
+
+void MainWindow2::on_btavancar_clicked()
+{
+    MainWindow MainWindow
+}
