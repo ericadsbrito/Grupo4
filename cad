@@ -17,20 +17,20 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::clicar()
+{
+    conect(ui->actionSobre,SIGNAL(clicked()),this,SLOT(QWidgetWindow());
+}
+
 void MainWindow::Incluir()
 {
     ui->frame_InclusaoProf->setVisible(true);
     QMessageBox::information(this,"Cadastrado!!","Cadastro realizado");
 }
 
-
 void MainWindow::setar_sobre()
 {
     ui->actionSobre->changed(ui->sobreprograma->setVisible(true););
 
-}
-
-void MainWindow::clicar()
-{
-    conect(ui->actionSobre,SIGNAL(clicked()),this,SLOT(QWidgetWindow());
 }
