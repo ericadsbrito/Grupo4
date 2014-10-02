@@ -32,7 +32,7 @@ goto p2;}
 
 p3:
 cout << "Digite o valor de E: ";
-cin >>r;
+cin >>e;
 if (e<=0){
 cout << "Digite um valor maior que zero"<< "\n";
 goto p3;}
