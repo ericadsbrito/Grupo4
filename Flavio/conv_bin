@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int decimal;
+	string bin;
+	
+	cout << "Digite um numero: ";
+	cin >> decimal;
+	
+	 while(decimal > 0)
+	 {  
+          
+            if(decimal%2==0)
+	    {
+                bin = "0"; 
+		cout << bin;
+			
+            }   
+            else
+	    {
+                bin = "1";
+		cout << bin; 
+				 
+            }
+      
+            decimal /= 2;  
+    }  
+    
+    
+       
+}
