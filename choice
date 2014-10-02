@@ -1,0 +1,30 @@
+#include <iostream>
+ using namespace std;
+ int main(void)
+ {
+   int num;
+   char choice;
+   bool quit = false;
+   while (true)
+   {
+      cout << "Enter a positive number: ";
+      cin >> num;
+      if (num > 0)
+      		break;
+      else
+      {
+      cout << "Number must be positive; try again (Y/N): ";
+      cin >> choice;
+      if (choice != 'Y')
+     	 {
+      	quit = true;
+      	break;
+      	}
+      }
+   }
+   if (quit == false)
+      cout << "The number you entered is " << num << " ";
+   else
+      cout << "You did not enter a positive number";
+   return 0;
+ }
