@@ -1,0 +1,20 @@
+ #include <iostream>
+ using namespace std;
+ int main(void)
+ {
+   int num, counter, secret = 3;
+   cout << "Guess a number between 1 and 10\n";
+   cout << "You have 3 tries\n";
+   for (int counter = 1; counter <= 3; counter++)
+   {
+      cout << "Enter the number now: ";
+      cin >> num;
+      if (num == secret)
+      {
+         cout << "You guessed the secret number!";
+         break;
+      }
+   }
+   cout << "Program over";
+   return 0;
+ }
