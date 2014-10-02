@@ -1,0 +1,55 @@
+#include <iostream>
+#include "stdio.h"
+#include "stdlib.h"
+#include "conio.h"
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+    int a,c, soma, subtracao;
+    char b[10];
+
+    printf("Digite o primeiro numero em decimal: ");
+    scanf("%d",&a);
+
+    itoa(a,b,2); //Converte para base 2
+
+    printf("\nO numero %d em binario e: %s",a,b);
+
+
+
+    printf("\n\nDigite o segundo numero em decimal: ");
+    scanf("%d",&c);
+
+    itoa(c,b,2); //Converte para base 2
+
+    printf("\nO numero %d em binario e: %s",c,b);
+
+
+    soma = a+c;
+    subtracao = a-c;
+
+
+
+    cout << "\n\n A soma em decimal eh: " << soma << endl;
+
+    cout << "\n\n A subtracao em decimal eh: " << subtracao << endl;
+
+
+
+    itoa(soma,b,2); //Converte para base 2
+
+    printf("\nO numero %d em binario e: %s",soma,b);
+
+
+
+    itoa(subtracao,b,2); //Converte para base 2
+
+    printf("\nO numero %d em binario e: %s",subtracao,b);
+
+
+
+
+
+    return 0;
+}
