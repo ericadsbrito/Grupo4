@@ -1,0 +1,30 @@
+ #include <iostream>
+ using namespace std;
+ int main(void)
+ {
+   int num, counter = 0, total = 0;
+   cout << "How many items do you want to buy: ";
+   cin >> num;
+   while (counter++ < num)
+   {
+      if (counter % 13 == 0)
+         continue;
+      total += 3;
+   }
+   cout << "Total for " << num << " items is $" << total;
+   
+   
+   int num = 2;
+   cout << num << ”\n”;
+   cout << ++num << ”\n”;
+   cout << num++ <<”\n”;
+   cout << num << ”\n”;
+   
+ cout << "Enter a number: ";
+   cin >> num;
+   cout << "The factorial of " << num << " is ";
+   for (int counter = 1; counter <= num; counter++)
+  total *= counter;
+   cout << total;
+   return 0;
+ }
