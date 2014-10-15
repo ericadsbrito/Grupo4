@@ -16,3 +16,5 @@ cout<<"digite C";
 cin>>c;
 
 delt=((b*b)-4*a*c);
+raiz=sqrt(delt);
+x1=(-b + raiz)/2*a;
