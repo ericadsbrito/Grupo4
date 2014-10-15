@@ -21,7 +21,9 @@
       	}
       }
    }
-
+   if (quit == false)
+      cout << "The number you entered is " << num << " ";
+   else
       cout << "You did not enter a positive number";
    return 0;
  }
