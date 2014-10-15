@@ -11,3 +11,7 @@ double  x1, x2, raiz;
 cout<<"digite A";
 cin>>a;
 cout<<"digite B";
+cin>>b;
+cout<<"digite C";
+cin>>c;
+
