@@ -18,3 +18,7 @@ cin>>c;
 delt=((b*b)-4*a*c);
 raiz=sqrt(delt);
 x1=(-b + raiz)/2*a;
+
+x2=(-b - raiz)/2*a;
+
+cout<<"X1 é:"<<x1;
