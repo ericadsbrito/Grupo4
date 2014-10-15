@@ -4,7 +4,7 @@
 
 struct cadastro {
 
-
+    
     char user[30];
     char pass[8];
     char login[30];
@@ -43,6 +43,11 @@ int main(void)
     char login[1][20], senha[1][20];
     struct cadastro logando[3];
 
+    cout << "1- Cadastro" << endl;
+
+    cout << "2- Login" << endl;
+
+    cout << "3- Sair" << endl;
 
     cin >> num;
 
