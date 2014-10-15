@@ -4,8 +4,7 @@
  {
    int num;
    char choice;
-   bool quit = false;
-   while (true)
+
    {
       cout << "Enter a positive number: ";
       cin >> num;
@@ -22,9 +21,7 @@
       	}
       }
    }
-   if (quit == false)
-      cout << "The number you entered is " << num << " ";
-   else
+
       cout << "You did not enter a positive number";
    return 0;
  }
