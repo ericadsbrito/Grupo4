@@ -8,3 +8,6 @@ int main(){
 
 float a, b, c, delt;
 double  x1, x2, raiz;
+cout<<"digite A";
+cin>>a;
+cout<<"digite B";
