@@ -23,3 +23,6 @@ x2=(-b - raiz)/2*a;
 
 cout<<"X1 é:"<<x1;
 cout<<"\nX2 é"<< x2;
+
+cin.get();
+}
