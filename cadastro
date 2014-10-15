@@ -67,14 +67,6 @@ int main(void)
     cout << "Entrar"<< endl << endl;
 
 
-    cout << "Login:"<< endl << endl;
-    cin << "login[0]";
-
-
-    cout << "Senha:"<< endl << endl;
-    cin << "senha[0]";
-
-
     cout << "Ola, "<< login[0] << endl;
 
     cin.get();
