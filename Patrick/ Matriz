@@ -1,3 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+void Janela5(){
+int lin, col;
+for ( lin = 0; lin <= 25; lin++ ){
+for ( col = 0; col <= 80; col++ ){
+gotoxy( col, lin );
+if ( lin == 2 ){textbackground(LIGHTBLUE);printf( " ");}
+if ( col == 1 ){textbackground(LIGHTBLUE);printf(" ");}
+if ( lin == 25 ){textbackground(LIGHTBLUE);}
+if ( col == 80 ){textbackground(LIGHTBLUE);printf(" ");}
+}
+}textbackground( BLACK );
+}
+int continuando( ){
 int nr; do{system("cls");Janela5();
 system ("title MATRIZ DE STRING POR UM ARQUIVO E ORDENANDO II");
 textcolor(LIGHTRED);gotoxy(20,3);printf("MATRIZ DE STRING POR UM ARQUIVO E ORDENANDO II");
@@ -46,4 +62,14 @@ if (strcmp( nome [ i ], nome [ j ] ) > 0){
 strcpy( temp, nome [ i ] );
 strcpy( nome [ i ], nome [ j ] );
 strcpy( nome [ j ], temp );
+}
+}
+}textcolor(WHITE);
+for (i = 0; i < 10; i++){
+gotoxy(45, i  + 7);
+printf(" %s ",nome [ i ] );
+}Sleep(1800);
+textcolor(LIGHTRED);gotoxy(35,21);printf("MUITO OBRIGADO");
+getche();
+return(0);
 }
