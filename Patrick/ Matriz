@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+void Janela5(){
+int lin, col;
+for ( lin = 0; lin <= 25; lin++ ){
+for ( col = 0; col <= 80; col++ ){
+gotoxy( col, lin );
+if ( lin == 2 ){textbackground(LIGHTBLUE);printf( " ");}
+if ( col == 1 ){textbackground(LIGHTBLUE);printf(" ");}
+if ( lin == 25 ){textbackground(LIGHTBLUE);}
+if ( col == 80 ){textbackground(LIGHTBLUE);printf(" ");}
+}
