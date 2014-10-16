@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-#include <conio.h>
-void Janela5(){
-int lin, col;
 for ( lin = 0; lin <= 25; lin++ ){
 for ( col = 0; col <= 80; col++ ){
 gotoxy( col, lin );
@@ -30,4 +25,16 @@ textcolor(YELLOW);gotoxy(36,16);printf ("\aopcao errada!");
 getche();
 }while(1);
 return 1;
+}
+int main(){
+char matriz [ 10 ] [ 17 ];
+char nome [ 10 ] [ 17 ], temp [ 17 ];
+int i, j;
+char *resul;
+FILE *arq = fopen("Nomes.txt", "r" );
+if ( arq == NULL ){
+textcolor(YELLOW);gotoxy(26,12);
+printf("Problemas na abertura do arquivo ");
+getche();
+return (0);
 }
