@@ -11,3 +11,14 @@ if ( col == 1 ){textbackground(LIGHTBLUE);printf(" ");}
 if ( lin == 25 ){textbackground(LIGHTBLUE);}
 if ( col == 80 ){textbackground(LIGHTBLUE);printf(" ");}
 }
+}textbackground( BLACK );
+}
+int continuando( ){
+int nr; do{system("cls");Janela5();
+system ("title MATRIZ DE STRING POR UM ARQUIVO E ORDENANDO II");
+textcolor(LIGHTRED);gotoxy(20,3);printf("MATRIZ DE STRING POR UM ARQUIVO E ORDENANDO II");
+textcolor(LIGHTBLUE);gotoxy(24,9);printf ("Digite 0 para sair ou 1 para continuar ");
+textcolor(LIGHTRED);scanf ( "%d", &nr );fflush(stdin);fflush(stdin);
+if( nr == 0 ){
+textcolor(LIGHTRED);gotoxy(35,21);printf("MUITO OBRIGADO");
+getche();exit(0);
