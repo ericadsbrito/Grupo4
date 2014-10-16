@@ -22,3 +22,12 @@ textcolor(LIGHTRED);scanf ( "%d", &nr );fflush(stdin);fflush(stdin);
 if( nr == 0 ){
 textcolor(LIGHTRED);gotoxy(35,21);printf("MUITO OBRIGADO");
 getche();exit(0);
+}
+else if( nr == 1 ){
+return 1;
+}
+textcolor(YELLOW);gotoxy(36,16);printf ("\aopcao errada!");
+getche();
+}while(1);
+return 1;
+}
