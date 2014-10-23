@@ -4,7 +4,10 @@ SELECT TOP 1000 [codigo_cliente]
       ,[telefone]
       ,[data_nascimento]
       ,[cidade]
+
       ,[rua]
       ,[numero]
+    
       ,[estado]
+      
   FROM [cadastroRestaurante].[dbo].[cadsatroRestaurante]
