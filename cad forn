@@ -2,6 +2,7 @@
 SELECT TOP 1000 [Nome fornecedor]
       ,[CNPJ]
       ,[Dia de visita]
+
       ,[telefone]
       ,[e-mail]
   FROM [cadastroRestaurante].[dbo].[Cadastro fornecedor]
