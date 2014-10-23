@@ -1,0 +1,37 @@
+#include <iostream> 
+using namespace std;
+ 
+int main() 
+{ 
+   int choice;
+   float radius,area; 
+   cout<<"\n 1. Area of circle :";
+   cout<<"\n 2. Perimeter of circle :"; 
+   cout<<"\n Enter choice :"; 
+   cin>>choice; 
+   cout<<"\n Enter radius of cirle :";
+   cin>>radius; 
+   ///{ Write your code here 
+ 
+    
+    if (choice == 1)
+    {
+        area = 3.14*radius*radius;
+        cout << "Area = " << area; 
+    }
+ 
+    else if (choice == 2)
+    {
+        area = 2*3.14*radius;
+        cout << "Perimeter = " << area; 
+    }
+ 
+ 
+    else 
+    cout << "Invalid option";
+ 
+ 
+   ///} 
+ 
+   return 0; 
+} 
