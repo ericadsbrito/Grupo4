@@ -1,4 +1,4 @@
 /****** Script do comando SelectTopNRows de SSMS  ******/
 SELECT TOP 1000 [Produtos]
-  FROM [cadastroRestaurante].[dbo].[Tabela de produtos]
+
   FROM [cadastroRestaurante].[dbo].[Tabela de produtos]
