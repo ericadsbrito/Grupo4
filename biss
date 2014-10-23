@@ -1,0 +1,38 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cin>>a;
+    ///{ write your code here
+    
+    
+
+    if (a % 4 == 0)
+    {
+        if (a % 100 == 0)
+        {
+             cout << "not a leap year";
+        }
+        else
+        {
+            cout << "leap year";  
+         }
+    }
+    else
+    {
+        cout << "not a leap year";    
+    }
+
+    
+    
+    
+    ///}
+     
+    
+    return 0;
+    }
+
+
