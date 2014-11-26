@@ -48,27 +48,48 @@ int Disciplina::get_periodo(){
 }
 
 Professor::Professor(){
-    nome = "";
-    horariodisp = 0;
+    nome = " ";
+    horariomanha = false;
+    horariotarde = false;
+    horarionoite = false;
 }
 
-Professor::Professor(string nome, int horariodisp){
+Professor::Professor(string nome, bool horariomanha, bool horariotarde, bool horarionoite){
     this->nome = nome;
-    this->horariodisp = horariodisp;
+    this->horariomanha = horariomanha;
+    this->horariotarde = horariotarde;
+    this->horarionoite = horarionoite;
+
 }
 
 void Professor::set_nome(string nome){
     this->nome = nome;
 }
 
-void Professor::set_horariodisp(int horariodisp){
-    this->horariodisp = horariodisp;
+void Professor::set_horariomanha(bool horariomanha){
+    this->horariomanha = horariomanha;
+}
+
+void Professor::set_horariotarde(bool horariotarde){
+    this->horariotarde = horariotarde;
+}
+
+void Professor::set_horarionoite(bool horarionoite){
+    this->horarionoite = horarionoite;
 }
 
 string Professor::get_nome(){
     return nome;
 }
 
-int Professor::get_horariodisp(){
-    return horariodisp;
+bool Professor::get_horariomanha(){
+    return horariomanha;
+}
+
+bool Professor::get_horariotarde(){
+    return horariotarde;
+}
+
+bool Professor::get_horarionoite(){
+    return horarionoite;
 }

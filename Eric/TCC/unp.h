@@ -26,14 +26,20 @@ public:
 class Professor{
 private:
     string nome;
-    int horariodisp;
+    bool horariomanha;
+    bool horariotarde;
+    bool horarionoite;
 public:
     Professor();
-    Professor(string nome, int horariodisp);
+    Professor(string nome, bool horariomanha, bool horariotarde, bool horarionoite);
     void set_nome(string nome);
-    void set_horariodisp(int horariodisp);
+    void set_horariomanha(bool horariomanha);
+    void set_horariotarde(bool horariotarde);
+    void set_horarionoite(bool horarionoite);
     string get_nome();
-    int get_horariodisp();
+    bool get_horariomanha();
+    bool get_horariotarde();
+    bool get_horarionoite();
 };
 
 #endif // UNP_H
